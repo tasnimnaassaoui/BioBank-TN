@@ -1,0 +1,104 @@
+.inscription { 
+    background:white; 
+    width:1337px; 
+    padding: 30px; 
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+} 
+
+fieldset {
+    border: 1px solid #ddd; 
+    padding: 30px; 
+    margin-bottom: 25px; 
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+legend {
+    font-weight: bold; 
+    color: #8e0505; 
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    letter-spacing: 1px;
+}
+
+label { 
+    display: block; 
+    margin-bottom: 8px; 
+    font-size: 13px; 
+    font-weight: bold; 
+    color: #333;
+    text-transform: uppercase;
+}
+
+input[type="text"], 
+input[type="number"], 
+input[type="date"], 
+select {
+    width: 100%;  
+    border: 1px solid #ccc; 
+    border-radius: 6px; 
+    font-size: 14px;
+}
+
+
+
+
+#v { 
+    width: 100%; 
+    background-color: #8e0505; 
+    color: white; 
+    padding: 15px; 
+    border: none; 
+    border-radius: 8px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+#v:hover { 
+    background-color: #5a0303; 
+}
+
+
+.champ {
+    font-size: 18px;
+    font-weight: bold;
+    color: #8e0505;
+    text-transform: uppercase;
+    border-bottom: 2px solid #8e0505;
+    display: inline-block;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    color: #777;
+}
+
+
+input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+#errnom, #errcin, #errtel, #errmaladie,#vide {
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+}
+
+#succes {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-size:15px;
+}
+#check{margin-left:20px;margin-right:10px}
